@@ -6,6 +6,6 @@ User=root
 Group=www-data
 WorkingDirectory=/opt/apps
 Environment="PATH=/opt/apps/env/bin"
-ExecStart=/opt/apps/env/bin/gunicorn --bind 0.0.0.0:5000 app:app
+ExecStart=//usr/bin/python3 /opt/apps/app.py
 [Install]
 WantedBy=multi-user.target
