@@ -1,1 +1,1 @@
-# project
+# Python Flask app
